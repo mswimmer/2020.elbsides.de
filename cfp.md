@@ -13,8 +13,8 @@ Please monitor our [@elbsides](https://twitter.com/elbsides) Twitter channel for
 
 ### Workshops ###
 
-~~We welcome submissions for workshops, but not through the normal process. Please email us at elbsides -
-at -  gmail.com with your proposal.~~
+We welcome submissions for workshops, but not through the normal process. Please email us at elbsides -
+at -  gmail.com with your proposal.
 
 # Topics #
 
