@@ -16,6 +16,11 @@ aws $AWS_OPTS s3api put-bucket-policy --bucket $BUCKET --policy file://s3_bucket
 
 bundle exec jekyll build
 
+if [ $? -ne 0 ] ; then
+    echo Build failed
+    exit 1
+fi
+
 aws $AWS_OPTS s3 sync _site/ s3://$BUCKET/ --delete --exclude ".DS_Store" | tee /tmp/sync.lst
 
 aws $AWS_OPTS s3 website s3://$BUCKET \

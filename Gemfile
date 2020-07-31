@@ -22,10 +22,10 @@ gem 'html-proofer'
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-#  gem "jekyll-feed", "~> 0.13"
+  gem "jekyll-feed", "~> 0.13"
   gem "jekyll-sitemap", "~> 1.4"
-#  gem "jekyll-gist", "~> 1.5"
-#  gem "jemoji", "~> 0.11"
+  gem "jekyll-gist", "~> 1.5"
+  gem "jemoji", "~> 0.11"
   gem "jekyll-include-cache", "~> 0.2"
 end
 

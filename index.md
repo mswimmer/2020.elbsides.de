@@ -5,9 +5,16 @@ author_profile: false
 
 <img src="/assets/images/Room Elbe fisheye.jpg" align="center" width="100%" >
 
-**Elbsides 2020** is returning to Hamburg in September 2020. Follow us here or on our [@elbsides](https://twitter.com/elbsides) Twitter channel for further information.
+**Elbsides 2020** has been canceled for year 2020 due the ongoing
+ COVID-19 pandemic and the restrictions on large events that were
+ imposed.
+ The conference will return to Hamburg in September 2021.
+ Follow us [here](https://www.elbsides.de) or on
+ our [@elbsides](https://twitter.com/elbsides) Twitter channel for updates.
 
-Xing: [Xing group](https://www.xing.com/communities/groups/elbsides-1115308)
+Also, remember that you can reach the community at:
 
-LinkedIn: [LinkedIn group](https://www.linkedin.com/groups/8828793/)
+* Xing: [Xing group](https://www.xing.com/communities/groups/elbsides-1115308)
+
+* LinkedIn: [LinkedIn group](https://www.linkedin.com/groups/8828793/)
 
