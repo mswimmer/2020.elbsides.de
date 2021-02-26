@@ -12,11 +12,10 @@ phases:
       ruby: 2.6
     commands:
       - export LC_ALL="en_US.UTF-8"
-      - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist html-proofer jekyll-feed jemoji jekyll-include-cache
+      - gem install jekyll jekyll-paginate jekyll-sitemap jekyll-gist html-proofer jekyll-feed jemoji jekyll-include-cache bundler
   build:
     commands:
       - echo  Building and deploy beta at `date`
-      - bundle update --bundler
       - bundle install
       - rake build
       - echo Build completed at `date`
