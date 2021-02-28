@@ -2,7 +2,5 @@
 main:
   - title: "CoC"
     url: /coc.html
-  - title: "Team"
-    url: /team.html
   - title: "About"
     url: /about.html

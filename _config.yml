@@ -10,16 +10,17 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                  : "elbsides-jekyll-theme"
-minimal_mistakes_skin    : "elbsides"
+theme                    : "minimal-mistakes-jekyll"
+minimal_mistakes_skin    : "default"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "Elbsides 2020"
+subtitle                 : "Security BSides for Hamburg"
 title_separator          : "-"
 name                     : "Elbsides team"
 description              : "The home of the Elbsides 2020 conference in Hamburg Germany."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : "https://2020.elbsides.de"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   :  "/assets/images/elbsides_teaser_500x500.png" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -42,7 +43,7 @@ social:
 author:
   name             : "Elbsides team"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              :  "This is the Elbsides conference team."
+  bio              : "This is the Elbsides conference team."
   location         : "Hamburg, Germany"
   email            :
   links:
@@ -70,6 +71,8 @@ footer:
   links:
     - label: "Elbsides main site"
       url: "https://elbsides.de"
+    - label: "2021 Elbsides site"
+      url: "https://2021.elbsides.de"
     - label: "Impressum"
       icon: "fab fa-link"
       url: "impressum.html"

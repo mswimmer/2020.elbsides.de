@@ -1,11 +1,3 @@
-GIT
-  remote: https://github.com/mswimmer/elbsides-jekyll-theme
-  revision: 540d2adaf3d4b984f02836d5bdd8b0d2d3b99bae
-  tag: 0.1.2
-  specs:
-    elbsides-jekyll-theme (0.1.2)
-      jekyll (~> 3.8.5)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -21,8 +13,6 @@ GEM
     em-websocket (0.5.1)
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0.6.0)
-    ethon (0.12.0)
-      ffi (>= 1.3.0)
     eventmachine (1.2.7)
     faraday (1.0.1)
       multipart-post (>= 1.2, < 3)
@@ -32,14 +22,6 @@ GEM
     html-pipeline (2.13.0)
       activesupport (>= 2)
       nokogiri (>= 1.4)
-    html-proofer (3.15.3)
-      addressable (~> 2.3)
-      mercenary (~> 0.3)
-      nokogumbo (~> 2.0)
-      parallel (~> 1.3)
-      rainbow (~> 3.0)
-      typhoeus (~> 1.3)
-      yell (~> 2.0)
     http_parser.rb (0.6.0)
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
@@ -62,6 +44,7 @@ GEM
       octokit (~> 4.2)
     jekyll-include-cache (0.2.0)
       jekyll (>= 3.7, < 5.0)
+    jekyll-paginate (1.1.0)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-sitemap (1.4.0)
@@ -79,20 +62,23 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.3.6)
     mini_portile2 (2.4.0)
+    minimal-mistakes-jekyll (4.22.0)
+      jekyll (>= 3.7, < 5.0)
+      jekyll-feed (~> 0.1)
+      jekyll-gist (~> 1.5)
+      jekyll-include-cache (~> 0.1)
+      jekyll-paginate (~> 1.1)
+      jekyll-sitemap (~> 1.3)
     minitest (5.14.1)
     multipart-post (2.1.1)
     nokogiri (1.10.10)
       mini_portile2 (~> 2.4.0)
-    nokogumbo (2.0.2)
-      nokogiri (~> 1.8, >= 1.8.4)
     octokit (4.18.0)
       faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
-    parallel (1.19.2)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (4.0.5)
-    rainbow (3.0.0)
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -107,24 +93,21 @@ GEM
       addressable (>= 2.3.5)
       faraday (> 0.8, < 2.0)
     thread_safe (0.3.6)
-    typhoeus (1.4.0)
-      ethon (>= 0.9.0)
     tzinfo (1.2.7)
       thread_safe (~> 0.1)
-    yell (2.2.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  elbsides-jekyll-theme (= 0.1.2)!
-  html-proofer
+  jekyll
   jekyll-feed (~> 0.13)
   jekyll-gist (~> 1.5)
   jekyll-include-cache (~> 0.2)
   jekyll-sitemap (~> 1.4)
   jemoji (~> 0.11)
+  minimal-mistakes-jekyll
   tzinfo-data
 
 BUNDLED WITH
-   2.1.2
+   2.2.11
