@@ -98,7 +98,7 @@ namespace :clearcache do
   desc "Clear Cloudfront cache"
   task :cloudfront do
     begin
-      system "aws cloudfront create-invalidation --distribution-id E364CZXFVWDWB --paths \"/*\""
+      system "aws cloudfront create-invalidation --distribution-id E1J3G1YAWMAIZA --paths \"/*\""
     end
   end
 end

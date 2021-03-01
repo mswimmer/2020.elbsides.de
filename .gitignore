@@ -4,3 +4,4 @@ _sass
 .jekyll-metadata
 .jekyll-cache
 .DS_Store
+.ruby-version
